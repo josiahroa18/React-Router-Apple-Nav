@@ -63,7 +63,12 @@ nav .links svg:hover{
   font-size: 0.8rem;
 }
 
+.product-wrapper a:hover{
+  color: dodgerblue;
+}
+
 .product-wrapper path{
   color: #1d1d1f;
 }
+
 

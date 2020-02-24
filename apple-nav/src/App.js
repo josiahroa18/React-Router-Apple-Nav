@@ -2,6 +2,8 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import Mac from './components/Mac';
+import IPad from './components/iPad';
+import IPhone from './components/iPhone';
 import './App.css';
 
 function App() {
@@ -13,10 +15,10 @@ function App() {
           <Mac/>
       </Route>
       <Route exact path='/ipad'>
-          <h1>iPad</h1>
+          <IPad/>
       </Route>
       <Route exact path='/iphone'>
-          <h1>iPhone</h1>
+          <IPhone/>
       </Route>
       <Route exact path='/watch'>
           <h1>Watcg</h1>
