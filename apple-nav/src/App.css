@@ -11,7 +11,7 @@ nav .links{
   align-items: center;
 }
 
-nav .links svg, nav .links a{
+nav .links a{
   margin: 0 20px;
   color: #d9d9d9;
 }
@@ -37,5 +37,33 @@ nav .links path:hover{
 
 nav .links svg:hover{
   cursor: pointer;
+}
+
+.nav-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: rgba(245,245,247,0.7);
+}
+
+.product-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  width: 100px;
+}
+
+.product-wrapper a{
+  text-decoration: none;
+  margin-top: 10px;
+  color: #1d1d1f;
+  font-size: 0.8rem;
+}
+
+.product-wrapper path{
+  color: #1d1d1f;
 }
 

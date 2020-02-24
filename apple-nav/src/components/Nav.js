@@ -8,16 +8,24 @@ function Nav(){
     return(
         <nav>
             <div className="links">
-                <FontAwesomeIcon icon={faApple} size='lg'/>
-                <Link>Mac</Link>
-                <Link>iPad</Link>
-                <Link>iPhone</Link>
-                <Link>Watch</Link>
-                <Link>TV</Link>
-                <Link>Music</Link>
-                <Link>Support</Link>
-                <FontAwesomeIcon icon={faSearch} />
-                <FontAwesomeIcon icon={faShoppingBag} />
+                <Link to='/'>
+                    <FontAwesomeIcon icon={faApple} size='lg'/>
+                </Link>
+                <Link to='/mac'>Mac</Link>
+                <Link to='/ipad'>iPad</Link>
+                <Link to='/iphone'>iPhone</Link>
+                <Link to='/watch'>Watch</Link>
+                <Link to='/tv'>TV</Link>
+                <Link to='/music'>Music</Link>
+                <Link to='/support'>Support</Link>
+                <Link to='/search'>
+                    <FontAwesomeIcon icon={faSearch} />
+                </Link>
+                <Link to='/bag'>
+                    <FontAwesomeIcon icon={faShoppingBag} />
+                </Link>
+                
+                
             </div>  
         </nav>
     ); 
