@@ -4,6 +4,9 @@ import Nav from './components/Nav';
 import Mac from './components/Mac';
 import IPad from './components/iPad';
 import IPhone from './components/iPhone';
+import Watch from './components/Watch';
+import Tv from './components/Tv';
+import Music from './components/Music';
 import './App.css';
 
 function App() {
@@ -21,13 +24,13 @@ function App() {
           <IPhone/>
       </Route>
       <Route exact path='/watch'>
-          <h1>Watcg</h1>
+          <Watch/>
       </Route>
       <Route exact path='/tv'>
-          <h1>TV</h1>
+          <Tv/>
       </Route>
       <Route exact path='/music'>
-          <h1>Music</h1>
+          <Music/>
       </Route>
       <Route exact path='/support'>
           <h1>Support</h1>

@@ -22,7 +22,6 @@ function iPhone(){
                 <FontAwesomeIcon icon={faMobileAlt} size='3x'/>
                 <Link>iPhone 8</Link>
             </div>
-
         </div>
     );
 }

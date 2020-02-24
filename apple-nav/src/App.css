@@ -53,7 +53,7 @@ nav .links svg:hover{
   justify-content: center;
   align-items: center;
   margin: 0 20px;
-  width: 100px;
+  width: 110px;
 }
 
 .product-wrapper a{
@@ -61,6 +61,7 @@ nav .links svg:hover{
   margin-top: 10px;
   color: #1d1d1f;
   font-size: 0.8rem;
+  text-align: center;
 }
 
 .product-wrapper a:hover{
