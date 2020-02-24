@@ -72,4 +72,10 @@ nav .links svg:hover{
   color: #1d1d1f;
 }
 
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 

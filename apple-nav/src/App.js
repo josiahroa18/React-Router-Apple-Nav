@@ -13,7 +13,11 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <Route exact path='/'></Route>
+      <Route exact path='/'>
+        <div className="text">
+          <h1>Apple Home</h1>
+        </div>
+      </Route>
       <Route exact path='/mac'>
           <Mac/>
       </Route>
@@ -33,13 +37,19 @@ function App() {
           <Music/>
       </Route>
       <Route exact path='/support'>
+        <div className="text">
           <h1>Support</h1>
+        </div>
       </Route>
       <Route exact path='/search'>
+        <div className="text">
           <h1>Search</h1>
+        </div>
       </Route>
       <Route exact path='/bag'>
+        <div className="text">
           <h1>Shopping Bag</h1>
+        </div>
       </Route>
     </div>
   );
